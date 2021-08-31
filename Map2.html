@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f370a7175cd5403a8c8f9e2c03f7e4ec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f370a7175cd5403a8c8f9e2c03f7e4ec" ></div>
+        
+</body>
+<script>    
+    
+            var map_f370a7175cd5403a8c8f9e2c03f7e4ec = L.map(
+                "map_f370a7175cd5403a8c8f9e2c03f7e4ec",
+                {
+                    center: [38.58, -99.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_677400c39b1944b3921b3fa483197414 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f370a7175cd5403a8c8f9e2c03f7e4ec);
+        
+    
+            var feature_group_f65732c2612f4a58b168c0a321c01cc6 = L.featureGroup(
+                {}
+            ).addTo(map_f370a7175cd5403a8c8f9e2c03f7e4ec);
+        
+    
+            var marker_eec4a9c3cf4a4a0ba0122b853836261d = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_dfe07dab3f0a4299b2b45577fa114a8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eec4a9c3cf4a4a0ba0122b853836261d.setIcon(icon_dfe07dab3f0a4299b2b45577fa114a8f);
+        
+    
+        var popup_a771b58b498740649e65b752aec01bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f49c62dba8ba4a378e975d1118824d9b = $(`<div id="html_f49c62dba8ba4a378e975d1118824d9b" style="width: 100.0%; height: 100.0%;">Baker, 3285.0 m</div>`)[0];
+            popup_a771b58b498740649e65b752aec01bda.setContent(html_f49c62dba8ba4a378e975d1118824d9b);
+        
+
+        marker_eec4a9c3cf4a4a0ba0122b853836261d.bindPopup(popup_a771b58b498740649e65b752aec01bda)
+        ;
+
+        
+    
+    
+            var marker_a742a81990484b7b8453c021932a1b3a = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_73d1d7f08cdb4fecab73bc9b13b95c71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a742a81990484b7b8453c021932a1b3a.setIcon(icon_73d1d7f08cdb4fecab73bc9b13b95c71);
+        
+    
+        var popup_902d29e5067847458924dc879842691c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bb0eaeab574db0adcfc29577a98ffb = $(`<div id="html_01bb0eaeab574db0adcfc29577a98ffb" style="width: 100.0%; height: 100.0%;">Glacier Peak, 3213.0 m</div>`)[0];
+            popup_902d29e5067847458924dc879842691c.setContent(html_01bb0eaeab574db0adcfc29577a98ffb);
+        
+
+        marker_a742a81990484b7b8453c021932a1b3a.bindPopup(popup_902d29e5067847458924dc879842691c)
+        ;
+
+        
+    
+    
+            var marker_9bffb3109e3546478bb5a739af84ff32 = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_33da9abad557473da22f363b13b9a1bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9bffb3109e3546478bb5a739af84ff32.setIcon(icon_33da9abad557473da22f363b13b9a1bb);
+        
+    
+        var popup_d8dcd5639d21438a8fd3a6bcc93f3c2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff3d99aef794845849a76b853a855f6 = $(`<div id="html_6ff3d99aef794845849a76b853a855f6" style="width: 100.0%; height: 100.0%;">Rainier, 4392.0 m</div>`)[0];
+            popup_d8dcd5639d21438a8fd3a6bcc93f3c2a.setContent(html_6ff3d99aef794845849a76b853a855f6);
+        
+
+        marker_9bffb3109e3546478bb5a739af84ff32.bindPopup(popup_d8dcd5639d21438a8fd3a6bcc93f3c2a)
+        ;
+
+        
+    
+    
+            var marker_fd05c495da8745a18beaf683f1021039 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_da4cf960739d45439974af126918a774 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd05c495da8745a18beaf683f1021039.setIcon(icon_da4cf960739d45439974af126918a774);
+        
+    
+        var popup_d862dea492d841b3931c66541a6b5933 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_961ee49bfc904d52bd468bd1c0d39799 = $(`<div id="html_961ee49bfc904d52bd468bd1c0d39799" style="width: 100.0%; height: 100.0%;">St. Helens, 2549.0 m</div>`)[0];
+            popup_d862dea492d841b3931c66541a6b5933.setContent(html_961ee49bfc904d52bd468bd1c0d39799);
+        
+
+        marker_fd05c495da8745a18beaf683f1021039.bindPopup(popup_d862dea492d841b3931c66541a6b5933)
+        ;
+
+        
+    
+    
+            var marker_db87997ed4524d1a85ff2faf3da8fab3 = L.marker(
+                [46.2057991, -121.4909973],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_5e59154070414694a7737ec2b3897c49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db87997ed4524d1a85ff2faf3da8fab3.setIcon(icon_5e59154070414694a7737ec2b3897c49);
+        
+    
+        var popup_9c8231ad486649fb8b70adc4a5f1c9a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de202cf22e624b20874a0fa24d9bdcb5 = $(`<div id="html_de202cf22e624b20874a0fa24d9bdcb5" style="width: 100.0%; height: 100.0%;">Adams, 3742.0 m</div>`)[0];
+            popup_9c8231ad486649fb8b70adc4a5f1c9a9.setContent(html_de202cf22e624b20874a0fa24d9bdcb5);
+        
+
+        marker_db87997ed4524d1a85ff2faf3da8fab3.bindPopup(popup_9c8231ad486649fb8b70adc4a5f1c9a9)
+        ;
+
+        
+    
+    
+            var marker_1325ed874abe4fcfb2a8fa3a955b9eb9 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_1a80e3b919ac4ed796385508ef5d6edf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1325ed874abe4fcfb2a8fa3a955b9eb9.setIcon(icon_1a80e3b919ac4ed796385508ef5d6edf);
+        
+    
+        var popup_bf6477aabb3d4b03b0dfd8ce1c04859c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7919d6536d249839182d56c3b838d39 = $(`<div id="html_e7919d6536d249839182d56c3b838d39" style="width: 100.0%; height: 100.0%;">West Crater, 1329.0 m</div>`)[0];
+            popup_bf6477aabb3d4b03b0dfd8ce1c04859c.setContent(html_e7919d6536d249839182d56c3b838d39);
+        
+
+        marker_1325ed874abe4fcfb2a8fa3a955b9eb9.bindPopup(popup_bf6477aabb3d4b03b0dfd8ce1c04859c)
+        ;
+
+        
+    
+    
+            var marker_e2ef1ef69b2343e3a5d8ab561af81cb5 = L.marker(
+                [45.9297981, -121.8209991],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_7547c73d1f184eedb9c48d67b47db76a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e2ef1ef69b2343e3a5d8ab561af81cb5.setIcon(icon_7547c73d1f184eedb9c48d67b47db76a);
+        
+    
+        var popup_a4655c39e39f41f48205a13b7bd75b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b530685be8e444d99df5fb16c3c19d5e = $(`<div id="html_b530685be8e444d99df5fb16c3c19d5e" style="width: 100.0%; height: 100.0%;">Indian Heaven, 1806.0 m</div>`)[0];
+            popup_a4655c39e39f41f48205a13b7bd75b42.setContent(html_b530685be8e444d99df5fb16c3c19d5e);
+        
+
+        marker_e2ef1ef69b2343e3a5d8ab561af81cb5.bindPopup(popup_a4655c39e39f41f48205a13b7bd75b42)
+        ;
+
+        
+    
+    
+            var marker_ec996e46c5724f1d9010733693a779f3 = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_3d8ad8c5f71d49a080fa7b40604fa614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec996e46c5724f1d9010733693a779f3.setIcon(icon_3d8ad8c5f71d49a080fa7b40604fa614);
+        
+    
+        var popup_2a918d8b03f4466eb72725fc92d774d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0b6fa0740e64dd4aebd4b2de11f75d6 = $(`<div id="html_b0b6fa0740e64dd4aebd4b2de11f75d6" style="width: 100.0%; height: 100.0%;">Hood, 3426.0 m</div>`)[0];
+            popup_2a918d8b03f4466eb72725fc92d774d6.setContent(html_b0b6fa0740e64dd4aebd4b2de11f75d6);
+        
+
+        marker_ec996e46c5724f1d9010733693a779f3.bindPopup(popup_2a918d8b03f4466eb72725fc92d774d6)
+        ;
+
+        
+    
+    
+            var marker_a2d4d3ffb5774bceba78d54bcddd482f = L.marker(
+                [44.6917992, -121.8010025],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_5d3bbde81f5241939bc711658d2ba3f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2d4d3ffb5774bceba78d54bcddd482f.setIcon(icon_5d3bbde81f5241939bc711658d2ba3f7);
+        
+    
+        var popup_c17754fda3cc4096a124be32058c56e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f946e72fe3324977ad701028b2feb488 = $(`<div id="html_f946e72fe3324977ad701028b2feb488" style="width: 100.0%; height: 100.0%;">Jefferson, 3199.0 m</div>`)[0];
+            popup_c17754fda3cc4096a124be32058c56e9.setContent(html_f946e72fe3324977ad701028b2feb488);
+        
+
+        marker_a2d4d3ffb5774bceba78d54bcddd482f.bindPopup(popup_c17754fda3cc4096a124be32058c56e9)
+        ;
+
+        
+    
+    
+            var marker_3f467d05492a4800bde89fb47d86e54c = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_08d1df671f9044ef9ca60ef511998297 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f467d05492a4800bde89fb47d86e54c.setIcon(icon_08d1df671f9044ef9ca60ef511998297);
+        
+    
+        var popup_965b9b92771f47ba84778a5c3ec3c04d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13b521b1e7f47439e4ae773014fb849 = $(`<div id="html_a13b521b1e7f47439e4ae773014fb849" style="width: 100.0%; height: 100.0%;">Blue Lake Crater, 1230.0 m</div>`)[0];
+            popup_965b9b92771f47ba84778a5c3ec3c04d.setContent(html_a13b521b1e7f47439e4ae773014fb849);
+        
+
+        marker_3f467d05492a4800bde89fb47d86e54c.bindPopup(popup_965b9b92771f47ba84778a5c3ec3c04d)
+        ;
+
+        
+    
+    
+            var marker_bfeb1aff36f54af1956f332802a35bac = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_80c280bc00484fa393ca56cd03afe498 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfeb1aff36f54af1956f332802a35bac.setIcon(icon_80c280bc00484fa393ca56cd03afe498);
+        
+    
+        var popup_c4bfc0b50c354f83a4197ce0ab23a092 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36c230dd997a40c5851df246debd2830 = $(`<div id="html_36c230dd997a40c5851df246debd2830" style="width: 100.0%; height: 100.0%;">Sand Mountain Field, 1664.0 m</div>`)[0];
+            popup_c4bfc0b50c354f83a4197ce0ab23a092.setContent(html_36c230dd997a40c5851df246debd2830);
+        
+
+        marker_bfeb1aff36f54af1956f332802a35bac.bindPopup(popup_c4bfc0b50c354f83a4197ce0ab23a092)
+        ;
+
+        
+    
+    
+            var marker_a716826d66da4921b17033176875601a = L.marker(
+                [44.3317986, -121.8310013],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_01fe90cdc93d462f85076374408e7761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a716826d66da4921b17033176875601a.setIcon(icon_01fe90cdc93d462f85076374408e7761);
+        
+    
+        var popup_868b3679258c4c8aa67659cb0cf977b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7ca1b878190450d9a6dd374a855c62e = $(`<div id="html_e7ca1b878190450d9a6dd374a855c62e" style="width: 100.0%; height: 100.0%;">Washington, 2376.0 m</div>`)[0];
+            popup_868b3679258c4c8aa67659cb0cf977b9.setContent(html_e7ca1b878190450d9a6dd374a855c62e);
+        
+
+        marker_a716826d66da4921b17033176875601a.bindPopup(popup_868b3679258c4c8aa67659cb0cf977b9)
+        ;
+
+        
+    
+    
+            var marker_4db78d06011b46349cb3f2115ba5b1d5 = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_56e528507ac547f1925e46adbfe31246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4db78d06011b46349cb3f2115ba5b1d5.setIcon(icon_56e528507ac547f1925e46adbfe31246);
+        
+    
+        var popup_be63e859373348d0902124c00c6cc29f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8996fdf9e0b64adbbbe7b423fad96690 = $(`<div id="html_8996fdf9e0b64adbbbe7b423fad96690" style="width: 100.0%; height: 100.0%;">Belknap, 2095.0 m</div>`)[0];
+            popup_be63e859373348d0902124c00c6cc29f.setContent(html_8996fdf9e0b64adbbbe7b423fad96690);
+        
+
+        marker_4db78d06011b46349cb3f2115ba5b1d5.bindPopup(popup_be63e859373348d0902124c00c6cc29f)
+        ;
+
+        
+    
+    
+            var marker_0f39fc50725a4764b2e21a83d475c4c4 = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_bb6d6eaea29b4470b431a04411b0694b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f39fc50725a4764b2e21a83d475c4c4.setIcon(icon_bb6d6eaea29b4470b431a04411b0694b);
+        
+    
+        var popup_75c7df6943894705ba446dc57e7b7d8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e527ccd9cd814311bbcdb59243cc75f3 = $(`<div id="html_e527ccd9cd814311bbcdb59243cc75f3" style="width: 100.0%; height: 100.0%;">North Sister Field, 3074.0 m</div>`)[0];
+            popup_75c7df6943894705ba446dc57e7b7d8e.setContent(html_e527ccd9cd814311bbcdb59243cc75f3);
+        
+
+        marker_0f39fc50725a4764b2e21a83d475c4c4.bindPopup(popup_75c7df6943894705ba446dc57e7b7d8e)
+        ;
+
+        
+    
+    
+            var marker_87e99b905f064eceabd0ac81506b74e8 = L.marker(
+                [44.0998001, -121.7710037],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_66e7ce62491e43f6a33948b3aabcd12e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87e99b905f064eceabd0ac81506b74e8.setIcon(icon_66e7ce62491e43f6a33948b3aabcd12e);
+        
+    
+        var popup_194a017057764633b0de57d22aa2d5e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6c7a2b545a04fa59363962bd4758262 = $(`<div id="html_f6c7a2b545a04fa59363962bd4758262" style="width: 100.0%; height: 100.0%;">South Sister, 3157.0 m</div>`)[0];
+            popup_194a017057764633b0de57d22aa2d5e2.setContent(html_f6c7a2b545a04fa59363962bd4758262);
+        
+
+        marker_87e99b905f064eceabd0ac81506b74e8.bindPopup(popup_194a017057764633b0de57d22aa2d5e2)
+        ;
+
+        
+    
+    
+            var marker_8535d26690354938bf7b633c7608554a = L.marker(
+                [43.9788017, -121.6809998],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_4f59602dde844be99064330515fc952f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8535d26690354938bf7b633c7608554a.setIcon(icon_4f59602dde844be99064330515fc952f);
+        
+    
+        var popup_4dfcc54f57474482abc7a0ef9808e169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_787b942a944a428badc945c06356f82f = $(`<div id="html_787b942a944a428badc945c06356f82f" style="width: 100.0%; height: 100.0%;">Bachelor, 2763.0 m</div>`)[0];
+            popup_4dfcc54f57474482abc7a0ef9808e169.setContent(html_787b942a944a428badc945c06356f82f);
+        
+
+        marker_8535d26690354938bf7b633c7608554a.bindPopup(popup_4dfcc54f57474482abc7a0ef9808e169)
+        ;
+
+        
+    
+    
+            var marker_654acd6e1f5f4064bdee60cb0c9edc0b = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_76f1da35abea4c69a697194766ed1d8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_654acd6e1f5f4064bdee60cb0c9edc0b.setIcon(icon_76f1da35abea4c69a697194766ed1d8b);
+        
+    
+        var popup_8923b61dcacc4b2fa20e6d8295bc4c30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_039cabee6217485089dd0400493552ef = $(`<div id="html_039cabee6217485089dd0400493552ef" style="width: 100.0%; height: 100.0%;">Newberry Volcano, 2434.0 m</div>`)[0];
+            popup_8923b61dcacc4b2fa20e6d8295bc4c30.setContent(html_039cabee6217485089dd0400493552ef);
+        
+
+        marker_654acd6e1f5f4064bdee60cb0c9edc0b.bindPopup(popup_8923b61dcacc4b2fa20e6d8295bc4c30)
+        ;
+
+        
+    
+    
+            var marker_c072a6aee61e477ea91f09fc75378280 = L.marker(
+                [43.5698013, -121.8209991],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_d41124da81b841638d17c625dd38532c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c072a6aee61e477ea91f09fc75378280.setIcon(icon_d41124da81b841638d17c625dd38532c);
+        
+    
+        var popup_6d46404aa85243e595dc19d04c180e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f88ee3f77cc64bf8abf760469c2250a3 = $(`<div id="html_f88ee3f77cc64bf8abf760469c2250a3" style="width: 100.0%; height: 100.0%;">Davis Lake, 2163.0 m</div>`)[0];
+            popup_6d46404aa85243e595dc19d04c180e25.setContent(html_f88ee3f77cc64bf8abf760469c2250a3);
+        
+
+        marker_c072a6aee61e477ea91f09fc75378280.bindPopup(popup_6d46404aa85243e595dc19d04c180e25)
+        ;
+
+        
+    
+    
+            var marker_c34e1bb45eac49e2ad8b1a8def496d40 = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_2ecb76b1353545de881eaab3c6b49537 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c34e1bb45eac49e2ad8b1a8def496d40.setIcon(icon_2ecb76b1353545de881eaab3c6b49537);
+        
+    
+        var popup_ecef9dccde67428d860a2a4b341b0be1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e71e525b5249cbb24dcd75b5313ba9 = $(`<div id="html_85e71e525b5249cbb24dcd75b5313ba9" style="width: 100.0%; height: 100.0%;">Devils Garden, 1698.0 m</div>`)[0];
+            popup_ecef9dccde67428d860a2a4b341b0be1.setContent(html_85e71e525b5249cbb24dcd75b5313ba9);
+        
+
+        marker_c34e1bb45eac49e2ad8b1a8def496d40.bindPopup(popup_ecef9dccde67428d860a2a4b341b0be1)
+        ;
+
+        
+    
+    
+            var marker_e63d74cd5d2f4e76b715252569650518 = L.marker(
+                [43.240799, -122.1009979],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_c0e4c8f7215e44d586b7fbf83b308f31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e63d74cd5d2f4e76b715252569650518.setIcon(icon_c0e4c8f7215e44d586b7fbf83b308f31);
+        
+    
+        var popup_bf99d18af4654f77a008e05e98992307 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fd30bff2727461ebe310e8548203e7d = $(`<div id="html_9fd30bff2727461ebe310e8548203e7d" style="width: 100.0%; height: 100.0%;">Cinnamon Butte, 1956.0 m</div>`)[0];
+            popup_bf99d18af4654f77a008e05e98992307.setContent(html_9fd30bff2727461ebe310e8548203e7d);
+        
+
+        marker_e63d74cd5d2f4e76b715252569650518.bindPopup(popup_bf99d18af4654f77a008e05e98992307)
+        ;
+
+        
+    
+    
+            var marker_b2c6e6afc18b4093b044d167bed71aa5 = L.marker(
+                [43.4719009, -120.7509995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_dedaa243b24343d287ddff433f384fe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2c6e6afc18b4093b044d167bed71aa5.setIcon(icon_dedaa243b24343d287ddff433f384fe7);
+        
+    
+        var popup_9e6bb07178d0482c86e523a507bf35ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04f70826ed38400f930e1f14b5500c56 = $(`<div id="html_04f70826ed38400f930e1f14b5500c56" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field, 1711.0 m</div>`)[0];
+            popup_9e6bb07178d0482c86e523a507bf35ee.setContent(html_04f70826ed38400f930e1f14b5500c56);
+        
+
+        marker_b2c6e6afc18b4093b044d167bed71aa5.bindPopup(popup_9e6bb07178d0482c86e523a507bf35ee)
+        ;
+
+        
+    
+    
+            var marker_dc108b14c112437bb84d43deaacc0dd0 = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_cc6541f8d56846c1b9d7ce347f9ecc54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc108b14c112437bb84d43deaacc0dd0.setIcon(icon_cc6541f8d56846c1b9d7ce347f9ecc54);
+        
+    
+        var popup_009dd48c17c045db8480d2798fd281cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46127b456e014319b90ed840df222ac7 = $(`<div id="html_46127b456e014319b90ed840df222ac7" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field, 1501.0 m</div>`)[0];
+            popup_009dd48c17c045db8480d2798fd281cb.setContent(html_46127b456e014319b90ed840df222ac7);
+        
+
+        marker_dc108b14c112437bb84d43deaacc0dd0.bindPopup(popup_009dd48c17c045db8480d2798fd281cb)
+        ;
+
+        
+    
+    
+            var marker_061d9c0fab714fed9a6a9ed8ee839b67 = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_92f2e04b3d7e4f3c936562805ed2b815 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_061d9c0fab714fed9a6a9ed8ee839b67.setIcon(icon_92f2e04b3d7e4f3c936562805ed2b815);
+        
+    
+        var popup_0eacd042f256499f94e6667c422ce1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0ebb45802914101b75bf8c3e6c7bfbe = $(`<div id="html_d0ebb45802914101b75bf8c3e6c7bfbe" style="width: 100.0%; height: 100.0%;">Crater Lake, 2487.0 m</div>`)[0];
+            popup_0eacd042f256499f94e6667c422ce1f5.setContent(html_d0ebb45802914101b75bf8c3e6c7bfbe);
+        
+
+        marker_061d9c0fab714fed9a6a9ed8ee839b67.bindPopup(popup_0eacd042f256499f94e6667c422ce1f5)
+        ;
+
+        
+    
+    
+            var marker_740bbac366f5486abc52c014191f1ae6 = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_5dd68fb7d0274c369208dfa9f451e79d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_740bbac366f5486abc52c014191f1ae6.setIcon(icon_5dd68fb7d0274c369208dfa9f451e79d);
+        
+    
+        var popup_e96567e30f184492ace5557c135ccd1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5843ce5147042c5bb19fa8ccefa1b1f = $(`<div id="html_d5843ce5147042c5bb19fa8ccefa1b1f" style="width: 100.0%; height: 100.0%;">Yellowstone, 2805.0 m</div>`)[0];
+            popup_e96567e30f184492ace5557c135ccd1b.setContent(html_d5843ce5147042c5bb19fa8ccefa1b1f);
+        
+
+        marker_740bbac366f5486abc52c014191f1ae6.bindPopup(popup_e96567e30f184492ace5557c135ccd1b)
+        ;
+
+        
+    
+    
+            var marker_56ca9dc90c1048c9a09955e40b4da9cd = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_3448a5b0be80450f8ddec327d2b61f45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56ca9dc90c1048c9a09955e40b4da9cd.setIcon(icon_3448a5b0be80450f8ddec327d2b61f45);
+        
+    
+        var popup_02a6824bf2c84f8bb7af9a558ba659ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57aec3b1ff9d49edbec99c4e2d12f08c = $(`<div id="html_57aec3b1ff9d49edbec99c4e2d12f08c" style="width: 100.0%; height: 100.0%;">Diamond Craters, 1435.0 m</div>`)[0];
+            popup_02a6824bf2c84f8bb7af9a558ba659ad.setContent(html_57aec3b1ff9d49edbec99c4e2d12f08c);
+        
+
+        marker_56ca9dc90c1048c9a09955e40b4da9cd.bindPopup(popup_02a6824bf2c84f8bb7af9a558ba659ad)
+        ;
+
+        
+    
+    
+            var marker_baa115de8fef4922b2c6c799c9c12a47 = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_3c96e9b3794e4775a204b71844df4d17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_baa115de8fef4922b2c6c799c9c12a47.setIcon(icon_3c96e9b3794e4775a204b71844df4d17);
+        
+    
+        var popup_686e7e97384e467ab601fef72dc61ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3dcd465498a4f05843b79db5682b5a6 = $(`<div id="html_a3dcd465498a4f05843b79db5682b5a6" style="width: 100.0%; height: 100.0%;">Jordan Craters, 1473.0 m</div>`)[0];
+            popup_686e7e97384e467ab601fef72dc61ca3.setContent(html_a3dcd465498a4f05843b79db5682b5a6);
+        
+
+        marker_baa115de8fef4922b2c6c799c9c12a47.bindPopup(popup_686e7e97384e467ab601fef72dc61ca3)
+        ;
+
+        
+    
+    
+            var marker_a1f5d0b4e9cf44acb9687694a1ddc339 = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_7eb09b6c45d94b129a00dd9b5647ec28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1f5d0b4e9cf44acb9687694a1ddc339.setIcon(icon_7eb09b6c45d94b129a00dd9b5647ec28);
+        
+    
+        var popup_a1b295f1f1044ad699359c4a59ad6f4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0d3830b41dd4e4d993ea23d1b16789b = $(`<div id="html_e0d3830b41dd4e4d993ea23d1b16789b" style="width: 100.0%; height: 100.0%;">Saddle Butte, 1700.0 m</div>`)[0];
+            popup_a1b295f1f1044ad699359c4a59ad6f4e.setContent(html_e0d3830b41dd4e4d993ea23d1b16789b);
+        
+
+        marker_a1f5d0b4e9cf44acb9687694a1ddc339.bindPopup(popup_a1b295f1f1044ad699359c4a59ad6f4e)
+        ;
+
+        
+    
+    
+            var marker_5744cfb33ecf49b9a1af71fbd2e35ebc = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_c312c8234b764802a9315eea8c0d2630 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5744cfb33ecf49b9a1af71fbd2e35ebc.setIcon(icon_c312c8234b764802a9315eea8c0d2630);
+        
+    
+        var popup_c9e8dbdcc63241fa956cc671010e3fbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3988d8b038364d089951818efa96ef32 = $(`<div id="html_3988d8b038364d089951818efa96ef32" style="width: 100.0%; height: 100.0%;">Craters of the Moon, 2005.0 m</div>`)[0];
+            popup_c9e8dbdcc63241fa956cc671010e3fbb.setContent(html_3988d8b038364d089951818efa96ef32);
+        
+
+        marker_5744cfb33ecf49b9a1af71fbd2e35ebc.bindPopup(popup_c9e8dbdcc63241fa956cc671010e3fbb)
+        ;
+
+        
+    
+    
+            var marker_cd8952b3b0e049138260d79749e0b9a7 = L.marker(
+                [43.4999008, -112.4509964],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_6b33c1eacf7d4be786220a6aec61df60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd8952b3b0e049138260d79749e0b9a7.setIcon(icon_6b33c1eacf7d4be786220a6aec61df60);
+        
+    
+        var popup_f369915b376a4d979982e2542c74b664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce3860870f6946a1a403a33bbb54965b = $(`<div id="html_ce3860870f6946a1a403a33bbb54965b" style="width: 100.0%; height: 100.0%;">Hell Half Acre, 1631.0 m</div>`)[0];
+            popup_f369915b376a4d979982e2542c74b664.setContent(html_ce3860870f6946a1a403a33bbb54965b);
+        
+
+        marker_cd8952b3b0e049138260d79749e0b9a7.bindPopup(popup_f369915b376a4d979982e2542c74b664)
+        ;
+
+        
+    
+    
+            var marker_f43734a405684edb8a5605d05d5bddff = L.marker(
+                [43.1799011, -114.3509979],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_f682b9c20de949efaa0b40c4c208c7cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f43734a405684edb8a5605d05d5bddff.setIcon(icon_f682b9c20de949efaa0b40c4c208c7cb);
+        
+    
+        var popup_5ad2eaa6272f431bb520ab757565661d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_715e2006c8c4420185ff6321d5a069b2 = $(`<div id="html_715e2006c8c4420185ff6321d5a069b2" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field, 1478.0 m</div>`)[0];
+            popup_5ad2eaa6272f431bb520ab757565661d.setContent(html_715e2006c8c4420185ff6321d5a069b2);
+        
+
+        marker_f43734a405684edb8a5605d05d5bddff.bindPopup(popup_5ad2eaa6272f431bb520ab757565661d)
+        ;
+
+        
+    
+    
+            var marker_1779741945134f43b317a03006b5260e = L.marker(
+                [42.6058998, -117.5810013],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_28fa423e7960434a9f666c4ddeaf10bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1779741945134f43b317a03006b5260e.setIcon(icon_28fa423e7960434a9f666c4ddeaf10bd);
+        
+    
+        var popup_9c591b4810294717b0a6fb8b8514759c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5ea0e807b3344bf9b50f5075818db15 = $(`<div id="html_a5ea0e807b3344bf9b50f5075818db15" style="width: 100.0%; height: 100.0%;">Jackies Butte, 1418.0 m</div>`)[0];
+            popup_9c591b4810294717b0a6fb8b8514759c.setContent(html_a5ea0e807b3344bf9b50f5075818db15);
+        
+
+        marker_1779741945134f43b317a03006b5260e.bindPopup(popup_9c591b4810294717b0a6fb8b8514759c)
+        ;
+
+        
+    
+    
+            var marker_ca6e89aa2856417eabd6fad8494008be = L.marker(
+                [41.5798988, -121.5709991],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_e4287230a72a4266ace7d6d1eda157fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca6e89aa2856417eabd6fad8494008be.setIcon(icon_e4287230a72a4266ace7d6d1eda157fc);
+        
+    
+        var popup_7bcae8aa5d3e4843a4e618ab94380d43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d43aad9b7a54e4d84ff26ad211ba29e = $(`<div id="html_2d43aad9b7a54e4d84ff26ad211ba29e" style="width: 100.0%; height: 100.0%;">Medicine Lake, 2412.0 m</div>`)[0];
+            popup_7bcae8aa5d3e4843a4e618ab94380d43.setContent(html_2d43aad9b7a54e4d84ff26ad211ba29e);
+        
+
+        marker_ca6e89aa2856417eabd6fad8494008be.bindPopup(popup_7bcae8aa5d3e4843a4e618ab94380d43)
+        ;
+
+        
+    
+    
+            var marker_0c0231cd0e5a4192b22661df5480c414 = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_08d5f135067d479192e1e90c5fcc0408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0c0231cd0e5a4192b22661df5480c414.setIcon(icon_08d5f135067d479192e1e90c5fcc0408);
+        
+    
+        var popup_07e315fb3d5840118692a201fec8efb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c7085565bd54ca9bfee6c3cbc90d592 = $(`<div id="html_8c7085565bd54ca9bfee6c3cbc90d592" style="width: 100.0%; height: 100.0%;">Wapi Lava Field, 1604.0 m</div>`)[0];
+            popup_07e315fb3d5840118692a201fec8efb0.setContent(html_8c7085565bd54ca9bfee6c3cbc90d592);
+        
+
+        marker_0c0231cd0e5a4192b22661df5480c414.bindPopup(popup_07e315fb3d5840118692a201fec8efb0)
+        ;
+
+        
+    
+    
+            var marker_4640b5284a9f4359938ce2916cdaeadc = L.marker(
+                [41.419899, -122.2009964],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_c1ecb4d3829f4f4aab926c331ab9d2ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4640b5284a9f4359938ce2916cdaeadc.setIcon(icon_c1ecb4d3829f4f4aab926c331ab9d2ab);
+        
+    
+        var popup_0343f3ded3634b5ca5032dd1abea1306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c777824fbd1446be8f51fc308f277f7f = $(`<div id="html_c777824fbd1446be8f51fc308f277f7f" style="width: 100.0%; height: 100.0%;">Shasta, 4317.0 m</div>`)[0];
+            popup_0343f3ded3634b5ca5032dd1abea1306.setContent(html_c777824fbd1446be8f51fc308f277f7f);
+        
+
+        marker_4640b5284a9f4359938ce2916cdaeadc.bindPopup(popup_0343f3ded3634b5ca5032dd1abea1306)
+        ;
+
+        
+    
+    
+            var marker_85ddc321ef0543fc9427579c9296157d = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_0e9045c9ba0e403e86d3447a90eda4fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_85ddc321ef0543fc9427579c9296157d.setIcon(icon_0e9045c9ba0e403e86d3447a90eda4fd);
+        
+    
+        var popup_f1232441b4574e2ca60e28d8bf710561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd20913e0f9349c7be2c99b207356fcb = $(`<div id="html_fd20913e0f9349c7be2c99b207356fcb" style="width: 100.0%; height: 100.0%;">Brushy Butte, 1174.0 m</div>`)[0];
+            popup_f1232441b4574e2ca60e28d8bf710561.setContent(html_fd20913e0f9349c7be2c99b207356fcb);
+        
+
+        marker_85ddc321ef0543fc9427579c9296157d.bindPopup(popup_f1232441b4574e2ca60e28d8bf710561)
+        ;
+
+        
+    
+    
+            var marker_94bd8dc2f2af495c815462ea86982c83 = L.marker(
+                [40.9548988, -121.3610001],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_2caa0a93b9fb4f3fbb4d98a9e8b38d9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94bd8dc2f2af495c815462ea86982c83.setIcon(icon_2caa0a93b9fb4f3fbb4d98a9e8b38d9e);
+        
+    
+        var popup_e4273e2c50f945a6ad6e627d3c86107c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf8ac7e2d2674b98af16d86e8738ba36 = $(`<div id="html_cf8ac7e2d2674b98af16d86e8738ba36" style="width: 100.0%; height: 100.0%;">Big Cave, 1259.0 m</div>`)[0];
+            popup_e4273e2c50f945a6ad6e627d3c86107c.setContent(html_cf8ac7e2d2674b98af16d86e8738ba36);
+        
+
+        marker_94bd8dc2f2af495c815462ea86982c83.bindPopup(popup_e4273e2c50f945a6ad6e627d3c86107c)
+        ;
+
+        
+    
+    
+            var marker_967b9e009fc34faeab8aec32050764df = L.marker(
+                [40.7798996, -121.6009979],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_c9a7b02d148c49ec97914397acbc0279 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_967b9e009fc34faeab8aec32050764df.setIcon(icon_c9a7b02d148c49ec97914397acbc0279);
+        
+    
+        var popup_0531d823d3d24bb0a60c268bca070c0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_640b3a8185244531821165c105ca633a = $(`<div id="html_640b3a8185244531821165c105ca633a" style="width: 100.0%; height: 100.0%;">Twin Buttes, 1631.0 m</div>`)[0];
+            popup_0531d823d3d24bb0a60c268bca070c0c.setContent(html_640b3a8185244531821165c105ca633a);
+        
+
+        marker_967b9e009fc34faeab8aec32050764df.bindPopup(popup_0531d823d3d24bb0a60c268bca070c0c)
+        ;
+
+        
+    
+    
+            var marker_1e6717b3884543348272725fbfc67516 = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_290a0f0b316e4818b11404c87df0c20e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e6717b3884543348272725fbfc67516.setIcon(icon_290a0f0b316e4818b11404c87df0c20e);
+        
+    
+        var popup_d68e772a43f94b8e9c5409704394e136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0cc69b71fc44b658e8849f474ee0e70 = $(`<div id="html_e0cc69b71fc44b658e8849f474ee0e70" style="width: 100.0%; height: 100.0%;">Tumble Buttes, 2191.0 m</div>`)[0];
+            popup_d68e772a43f94b8e9c5409704394e136.setContent(html_e0cc69b71fc44b658e8849f474ee0e70);
+        
+
+        marker_1e6717b3884543348272725fbfc67516.bindPopup(popup_d68e772a43f94b8e9c5409704394e136)
+        ;
+
+        
+    
+    
+            var marker_36ecf352771542519562d48faf9ac13c = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_6978eedff3bf467ba41af5add5525b1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36ecf352771542519562d48faf9ac13c.setIcon(icon_6978eedff3bf467ba41af5add5525b1c);
+        
+    
+        var popup_b460991bdf024eaca3c35f59469a3767 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e931eccfe39d4bdbbc698c6bf66a4608 = $(`<div id="html_e931eccfe39d4bdbbc698c6bf66a4608" style="width: 100.0%; height: 100.0%;">Eagle Lake Field, 1652.0 m</div>`)[0];
+            popup_b460991bdf024eaca3c35f59469a3767.setContent(html_e931eccfe39d4bdbbc698c6bf66a4608);
+        
+
+        marker_36ecf352771542519562d48faf9ac13c.bindPopup(popup_b460991bdf024eaca3c35f59469a3767)
+        ;
+
+        
+    
+    
+            var marker_cc17e6aa88d046b9afe11cb855258e5b = L.marker(
+                [40.4919014, -121.5009995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_76f9f4a9b05d4dd9954cf5dd89ca4b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc17e6aa88d046b9afe11cb855258e5b.setIcon(icon_76f9f4a9b05d4dd9954cf5dd89ca4b7e);
+        
+    
+        var popup_683217823c0f474190567c37c919402d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee7f13fee08942179e5c0125ea6a68a7 = $(`<div id="html_ee7f13fee08942179e5c0125ea6a68a7" style="width: 100.0%; height: 100.0%;">Lassen Volc Center, 3187.0 m</div>`)[0];
+            popup_683217823c0f474190567c37c919402d.setContent(html_ee7f13fee08942179e5c0125ea6a68a7);
+        
+
+        marker_cc17e6aa88d046b9afe11cb855258e5b.bindPopup(popup_683217823c0f474190567c37c919402d)
+        ;
+
+        
+    
+    
+            var marker_9b2a18ee961e473cb99bb971f79ed096 = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_259d23afd6604b80a2e42c9fb20fbed9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b2a18ee961e473cb99bb971f79ed096.setIcon(icon_259d23afd6604b80a2e42c9fb20fbed9);
+        
+    
+        var popup_43aa61548215457caa53636dc0b7ccc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc174ebd319945a19a72a2ac1ad49afa = $(`<div id="html_fc174ebd319945a19a72a2ac1ad49afa" style="width: 100.0%; height: 100.0%;">Clear Lake, 1439.0 m</div>`)[0];
+            popup_43aa61548215457caa53636dc0b7ccc2.setContent(html_fc174ebd319945a19a72a2ac1ad49afa);
+        
+
+        marker_9b2a18ee961e473cb99bb971f79ed096.bindPopup(popup_43aa61548215457caa53636dc0b7ccc2)
+        ;
+
+        
+    
+    
+            var marker_075127d3b4c24001aca01c01a288d408 = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_59735ca5d1c1414ea525bd18bdf7c70c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_075127d3b4c24001aca01c01a288d408.setIcon(icon_59735ca5d1c1414ea525bd18bdf7c70c);
+        
+    
+        var popup_04f1e0b2d84c4e269b322f45805a4a51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e85eac78749f4255b35f992b7bba9bf7 = $(`<div id="html_e85eac78749f4255b35f992b7bba9bf7" style="width: 100.0%; height: 100.0%;">Steamboat Springs, 1415.0 m</div>`)[0];
+            popup_04f1e0b2d84c4e269b322f45805a4a51.setContent(html_e85eac78749f4255b35f992b7bba9bf7);
+        
+
+        marker_075127d3b4c24001aca01c01a288d408.bindPopup(popup_04f1e0b2d84c4e269b322f45805a4a51)
+        ;
+
+        
+    
+    
+            var marker_094e616544c847a5aed1ae506d6fd567 = L.marker(
+                [39.6500015, -107.0309982],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_f09e770c9fd64f63a375d684d7f208c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_094e616544c847a5aed1ae506d6fd567.setIcon(icon_f09e770c9fd64f63a375d684d7f208c2);
+        
+    
+        var popup_0a8d296121a54177af505f10ea1aa6d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f041abc82545fcaf21bec0bc5d9972 = $(`<div id="html_31f041abc82545fcaf21bec0bc5d9972" style="width: 100.0%; height: 100.0%;">Dotsero, 2230.0 m</div>`)[0];
+            popup_0a8d296121a54177af505f10ea1aa6d9.setContent(html_31f041abc82545fcaf21bec0bc5d9972);
+        
+
+        marker_094e616544c847a5aed1ae506d6fd567.bindPopup(popup_0a8d296121a54177af505f10ea1aa6d9)
+        ;
+
+        
+    
+    
+            var marker_c31b005e4eb84fa8b992622ae5b666fa = L.marker(
+                [37.9999008, -119.0309982],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_231ddcf31f09461b9f44cd08940543a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c31b005e4eb84fa8b992622ae5b666fa.setIcon(icon_231ddcf31f09461b9f44cd08940543a8);
+        
+    
+        var popup_a0d71c4f1b4c458688b6c929c471f87d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f44ff7533aad4e21aa7880ce124212e8 = $(`<div id="html_f44ff7533aad4e21aa7880ce124212e8" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field, 2121.0 m</div>`)[0];
+            popup_a0d71c4f1b4c458688b6c929c471f87d.setContent(html_f44ff7533aad4e21aa7880ce124212e8);
+        
+
+        marker_c31b005e4eb84fa8b992622ae5b666fa.bindPopup(popup_a0d71c4f1b4c458688b6c929c471f87d)
+        ;
+
+        
+    
+    
+            var marker_d746f700da6a46feb5d98854f36f6d1d = L.marker(
+                [38.9700012, -112.5009995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_935fbac689874137a13fcc20feab8a4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d746f700da6a46feb5d98854f36f6d1d.setIcon(icon_935fbac689874137a13fcc20feab8a4f);
+        
+    
+        var popup_5b45d259dba04fa3b842e9a3cd67a1d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51092c18c29648e2998bbce2b85f16e8 = $(`<div id="html_51092c18c29648e2998bbce2b85f16e8" style="width: 100.0%; height: 100.0%;">Black Rock Desert, 1800.0 m</div>`)[0];
+            popup_5b45d259dba04fa3b842e9a3cd67a1d4.setContent(html_51092c18c29648e2998bbce2b85f16e8);
+        
+
+        marker_d746f700da6a46feb5d98854f36f6d1d.bindPopup(popup_5b45d259dba04fa3b842e9a3cd67a1d4)
+        ;
+
+        
+    
+    
+            var marker_dac0c13fbc0445c08cbf5cb2fdcea63c = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_744c985abd444d58bf466c403a94a4ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dac0c13fbc0445c08cbf5cb2fdcea63c.setIcon(icon_744c985abd444d58bf466c403a94a4ff);
+        
+    
+        var popup_f1f40701cd2e4dc8aa73ef249ef9f60e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beb136acfea141aba62129ab83d1c42d = $(`<div id="html_beb136acfea141aba62129ab83d1c42d" style="width: 100.0%; height: 100.0%;">Mono Craters, 2796.0 m</div>`)[0];
+            popup_f1f40701cd2e4dc8aa73ef249ef9f60e.setContent(html_beb136acfea141aba62129ab83d1c42d);
+        
+
+        marker_dac0c13fbc0445c08cbf5cb2fdcea63c.bindPopup(popup_f1f40701cd2e4dc8aa73ef249ef9f60e)
+        ;
+
+        
+    
+    
+            var marker_46117fc2e7134f26a28aa15661d51a69 = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_b5765860f033454aaeb4f04f8dfcb246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46117fc2e7134f26a28aa15661d51a69.setIcon(icon_b5765860f033454aaeb4f04f8dfcb246);
+        
+    
+        var popup_9e921823f9324f2685ed7708b78fcd00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0714c5098d994e87a8e1b567f1c18e4f = $(`<div id="html_0714c5098d994e87a8e1b567f1c18e4f" style="width: 100.0%; height: 100.0%;">Inyo Craters, 2629.0 m</div>`)[0];
+            popup_9e921823f9324f2685ed7708b78fcd00.setContent(html_0714c5098d994e87a8e1b567f1c18e4f);
+        
+
+        marker_46117fc2e7134f26a28aa15661d51a69.bindPopup(popup_9e921823f9324f2685ed7708b78fcd00)
+        ;
+
+        
+    
+    
+            var marker_a76b53a3e298479c9b555449ad3f2dd8 = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_3a4808b66f04414aa207192b5803cd54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a76b53a3e298479c9b555449ad3f2dd8.setIcon(icon_3a4808b66f04414aa207192b5803cd54);
+        
+    
+        var popup_4c0168b3ea8346c6890ea0633e77782c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd1824576fc94533ac9a854846154b2f = $(`<div id="html_dd1824576fc94533ac9a854846154b2f" style="width: 100.0%; height: 100.0%;">Long Valley, 3390.0 m</div>`)[0];
+            popup_4c0168b3ea8346c6890ea0633e77782c.setContent(html_dd1824576fc94533ac9a854846154b2f);
+        
+
+        marker_a76b53a3e298479c9b555449ad3f2dd8.bindPopup(popup_4c0168b3ea8346c6890ea0633e77782c)
+        ;
+
+        
+    
+    
+            var marker_023fa53f72e04f2e85d0d059c369603c = L.marker(
+                [37.5798988, -119.0510025],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_cc756569e7d64e57ace716cf3dbe5e39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_023fa53f72e04f2e85d0d059c369603c.setIcon(icon_cc756569e7d64e57ace716cf3dbe5e39);
+        
+    
+        var popup_552a127c441046aeb2b7e7cb00d733d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03a442c8ea044f3ab4e39109a0c20111 = $(`<div id="html_03a442c8ea044f3ab4e39109a0c20111" style="width: 100.0%; height: 100.0%;">Red Cones, 2748.0 m</div>`)[0];
+            popup_552a127c441046aeb2b7e7cb00d733d3.setContent(html_03a442c8ea044f3ab4e39109a0c20111);
+        
+
+        marker_023fa53f72e04f2e85d0d059c369603c.bindPopup(popup_552a127c441046aeb2b7e7cb00d733d3)
+        ;
+
+        
+    
+    
+            var marker_e196e03af4644340af56bbfea8f61be6 = L.marker(
+                [37.0199013, -117.4509964],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_28b938683ff947628b1344fb8160a6f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e196e03af4644340af56bbfea8f61be6.setIcon(icon_28b938683ff947628b1344fb8160a6f8);
+        
+    
+        var popup_719d6a8feb0b457295263df20ba3c27d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3ebc989b30d45a5810960001589e2cd = $(`<div id="html_c3ebc989b30d45a5810960001589e2cd" style="width: 100.0%; height: 100.0%;">Ubehebe Craters, 752.0 m</div>`)[0];
+            popup_719d6a8feb0b457295263df20ba3c27d.setContent(html_c3ebc989b30d45a5810960001589e2cd);
+        
+
+        marker_e196e03af4644340af56bbfea8f61be6.bindPopup(popup_719d6a8feb0b457295263df20ba3c27d)
+        ;
+
+        
+    
+    
+            var marker_325d60a2af91402b8da35269da89a88a = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_5fb9af8d384841f0a6ff0218f4cd90e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_325d60a2af91402b8da35269da89a88a.setIcon(icon_5fb9af8d384841f0a6ff0218f4cd90e0);
+        
+    
+        var popup_a74bcdb2620140708946ad173a9d6d03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_221cc459a96e408284627e4b2773ea60 = $(`<div id="html_221cc459a96e408284627e4b2773ea60" style="width: 100.0%; height: 100.0%;">Markagunt Plateau, 2840.0 m</div>`)[0];
+            popup_a74bcdb2620140708946ad173a9d6d03.setContent(html_221cc459a96e408284627e4b2773ea60);
+        
+
+        marker_325d60a2af91402b8da35269da89a88a.bindPopup(popup_a74bcdb2620140708946ad173a9d6d03)
+        ;
+
+        
+    
+    
+            var marker_2cf6e3daeead4e02a493da199c502d43 = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_be991943f17146c4b816dcc1233d8d26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2cf6e3daeead4e02a493da199c502d43.setIcon(icon_be991943f17146c4b816dcc1233d8d26);
+        
+    
+        var popup_8a51665feba9423ea56bbf0c4d664074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75987c11da494d768e92606df81c5d4b = $(`<div id="html_75987c11da494d768e92606df81c5d4b" style="width: 100.0%; height: 100.0%;">Santa Clara, 1465.0 m</div>`)[0];
+            popup_8a51665feba9423ea56bbf0c4d664074.setContent(html_75987c11da494d768e92606df81c5d4b);
+        
+
+        marker_2cf6e3daeead4e02a493da199c502d43.bindPopup(popup_8a51665feba9423ea56bbf0c4d664074)
+        ;
+
+        
+    
+    
+            var marker_0bc72b12619e4178b432d4f19fb66d07 = L.marker(
+                [37.3279991, -112.401001],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_218bdf7861374d06ac19858a62e33568 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0bc72b12619e4178b432d4f19fb66d07.setIcon(icon_218bdf7861374d06ac19858a62e33568);
+        
+    
+        var popup_a8c065b871df401a9ac81fb25a797cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea09b7919a50406e899dfd235f5dec8a = $(`<div id="html_ea09b7919a50406e899dfd235f5dec8a" style="width: 100.0%; height: 100.0%;">Bald Knoll, 2135.0 m</div>`)[0];
+            popup_a8c065b871df401a9ac81fb25a797cc4.setContent(html_ea09b7919a50406e899dfd235f5dec8a);
+        
+
+        marker_0bc72b12619e4178b432d4f19fb66d07.bindPopup(popup_a8c065b871df401a9ac81fb25a797cc4)
+        ;
+
+        
+    
+    
+            var marker_89c84d5f35dd4a5ba7463ad54f34ab95 = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_195306ae69714becaa836b7f55cedc68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89c84d5f35dd4a5ba7463ad54f34ab95.setIcon(icon_195306ae69714becaa836b7f55cedc68);
+        
+    
+        var popup_a4d329f99ee449b9b1252686d4ce11e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5449359bfe294ab3962a5c4f6289698f = $(`<div id="html_5449359bfe294ab3962a5c4f6289698f" style="width: 100.0%; height: 100.0%;">Golden Trout Creek, 2886.0 m</div>`)[0];
+            popup_a4d329f99ee449b9b1252686d4ce11e8.setContent(html_5449359bfe294ab3962a5c4f6289698f);
+        
+
+        marker_89c84d5f35dd4a5ba7463ad54f34ab95.bindPopup(popup_a4d329f99ee449b9b1252686d4ce11e8)
+        ;
+
+        
+    
+    
+            var marker_dbe92d29d22b4073beb0faaecef6970b = L.marker(
+                [36.0298996, -117.8209991],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_16f517aefc4746e98d5bb152b870a136 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dbe92d29d22b4073beb0faaecef6970b.setIcon(icon_16f517aefc4746e98d5bb152b870a136);
+        
+    
+        var popup_aab9bb23db9f45e7afd432da5c770320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a7b47d66bc14429b62d0b59fa797eeb = $(`<div id="html_8a7b47d66bc14429b62d0b59fa797eeb" style="width: 100.0%; height: 100.0%;">Coso Volc Field, 2400.0 m</div>`)[0];
+            popup_aab9bb23db9f45e7afd432da5c770320.setContent(html_8a7b47d66bc14429b62d0b59fa797eeb);
+        
+
+        marker_dbe92d29d22b4073beb0faaecef6970b.bindPopup(popup_aab9bb23db9f45e7afd432da5c770320)
+        ;
+
+        
+    
+    
+            var marker_20b22605e2fe4f9ca38624e58c8e43c4 = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_42a18b94c737405da3b20caa0e478961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20b22605e2fe4f9ca38624e58c8e43c4.setIcon(icon_42a18b94c737405da3b20caa0e478961);
+        
+    
+        var popup_af81b7dfcd7946f596a58a6b6ba62cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46782847ac6649268b7a592797da14ef = $(`<div id="html_46782847ac6649268b7a592797da14ef" style="width: 100.0%; height: 100.0%;">Uinkaret Field, 1555.0 m</div>`)[0];
+            popup_af81b7dfcd7946f596a58a6b6ba62cfd.setContent(html_46782847ac6649268b7a592797da14ef);
+        
+
+        marker_20b22605e2fe4f9ca38624e58c8e43c4.bindPopup(popup_af81b7dfcd7946f596a58a6b6ba62cfd)
+        ;
+
+        
+    
+    
+            var marker_58bd4ed0a33345a6a85dc90e1ddc6040 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_26a6371c5640436d882d6015d4c4ccbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_58bd4ed0a33345a6a85dc90e1ddc6040.setIcon(icon_26a6371c5640436d882d6015d4c4ccbd);
+        
+    
+        var popup_325f409e02eb42fb889581eafad8388b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c7d71b7721545e68c855905bd830c86 = $(`<div id="html_6c7d71b7721545e68c855905bd830c86" style="width: 100.0%; height: 100.0%;">Lavic Lake, 1495.0 m</div>`)[0];
+            popup_325f409e02eb42fb889581eafad8388b.setContent(html_6c7d71b7721545e68c855905bd830c86);
+        
+
+        marker_58bd4ed0a33345a6a85dc90e1ddc6040.bindPopup(popup_325f409e02eb42fb889581eafad8388b)
+        ;
+
+        
+    
+    
+            var marker_cabf7f68a95a41dfb993e12eb3e272a3 = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_967d4434a4f84bae9f5601054adeed15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cabf7f68a95a41dfb993e12eb3e272a3.setIcon(icon_967d4434a4f84bae9f5601054adeed15);
+        
+    
+        var popup_bea6f321e6c644cf91385b52bc5c6209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19fd88b89c4b421ca304066e4ac10280 = $(`<div id="html_19fd88b89c4b421ca304066e4ac10280" style="width: 100.0%; height: 100.0%;">Valles Caldera, 3430.0 m</div>`)[0];
+            popup_bea6f321e6c644cf91385b52bc5c6209.setContent(html_19fd88b89c4b421ca304066e4ac10280);
+        
+
+        marker_cabf7f68a95a41dfb993e12eb3e272a3.bindPopup(popup_bea6f321e6c644cf91385b52bc5c6209)
+        ;
+
+        
+    
+    
+            var marker_14037e37d3eb41a0a9a146ddcba8cc35 = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_25ca19eab9874531bb9a034a10dd46d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14037e37d3eb41a0a9a146ddcba8cc35.setIcon(icon_25ca19eab9874531bb9a034a10dd46d7);
+        
+    
+        var popup_2e561f470c9e4ba89b5cd8ed98af6fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09c8a767eb134e53b209bb9b4eaaa729 = $(`<div id="html_09c8a767eb134e53b209bb9b4eaaa729" style="width: 100.0%; height: 100.0%;">Sunset Crater, 2447.0 m</div>`)[0];
+            popup_2e561f470c9e4ba89b5cd8ed98af6fec.setContent(html_09c8a767eb134e53b209bb9b4eaaa729);
+        
+
+        marker_14037e37d3eb41a0a9a146ddcba8cc35.bindPopup(popup_2e561f470c9e4ba89b5cd8ed98af6fec)
+        ;
+
+        
+    
+    
+            var marker_c92aa133bc63469f88320cadd0197d9e = L.marker(
+                [34.5499992, -115.7809982],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_736db481109a4ca9b618aa30b6fcce75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c92aa133bc63469f88320cadd0197d9e.setIcon(icon_736db481109a4ca9b618aa30b6fcce75);
+        
+    
+        var popup_281e9251e448421d841b58f953da9a14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07c22a2c719e42c6ade9d46c2d57726d = $(`<div id="html_07c22a2c719e42c6ade9d46c2d57726d" style="width: 100.0%; height: 100.0%;">Amboy, 288.0 m</div>`)[0];
+            popup_281e9251e448421d841b58f953da9a14.setContent(html_07c22a2c719e42c6ade9d46c2d57726d);
+        
+
+        marker_c92aa133bc63469f88320cadd0197d9e.bindPopup(popup_281e9251e448421d841b58f953da9a14)
+        ;
+
+        
+    
+    
+            var marker_3814d61a91634e85849e306b8b50c26c = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_3d53d3e16d154e4db1b37f30aa0aa4ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3814d61a91634e85849e306b8b50c26c.setIcon(icon_3d53d3e16d154e4db1b37f30aa0aa4ed);
+        
+    
+        var popup_bd6d5a61678446d884f54df5e51ec5b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3cd3cf1a3d74d50b02bc0112fbcfd85 = $(`<div id="html_b3cd3cf1a3d74d50b02bc0112fbcfd85" style="width: 100.0%; height: 100.0%;">Zuni-Bandera, 2550.0 m</div>`)[0];
+            popup_bd6d5a61678446d884f54df5e51ec5b1.setContent(html_b3cd3cf1a3d74d50b02bc0112fbcfd85);
+        
+
+        marker_3814d61a91634e85849e306b8b50c26c.bindPopup(popup_bd6d5a61678446d884f54df5e51ec5b1)
+        ;
+
+        
+    
+    
+            var marker_d10de4f4760b45a7a0555205a2c9f96a = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(feature_group_f65732c2612f4a58b168c0a321c01cc6);
+        
+    
+            var icon_144fef9ec6964279ba3185de07086ae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d10de4f4760b45a7a0555205a2c9f96a.setIcon(icon_144fef9ec6964279ba3185de07086ae0);
+        
+    
+        var popup_f2d24e7681e444a980e70e7fe1d9c5ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad103a316504cba91bfe3316aaf2ea3 = $(`<div id="html_6ad103a316504cba91bfe3316aaf2ea3" style="width: 100.0%; height: 100.0%;">Carrizozo, 1731.0 m</div>`)[0];
+            popup_f2d24e7681e444a980e70e7fe1d9c5ac.setContent(html_6ad103a316504cba91bfe3316aaf2ea3);
+        
+
+        marker_d10de4f4760b45a7a0555205a2c9f96a.bindPopup(popup_f2d24e7681e444a980e70e7fe1d9c5ac)
+        ;
+
+        
+    
+</script>
